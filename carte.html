@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commander - ZH HOME</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="brand-name">ZH HOME</h1>
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Accueil</a></li>
+                        <li><a href="about.html" class="nav-link">À propos</a></li>
+                        <li><a href="carte.html" class="nav-link active">Commander</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Cart Hero Section -->
+    <section class="cart-hero">
+        <div class="container">
+            <div class="cart-hero-content">
+                <h2 class="cart-title">🛒 Passer votre commande</h2>
+                <p class="cart-subtitle">Choisissez vos produits et remplissez le formulaire pour finaliser votre commande</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Selection -->
+    <section class="product-selection">
+        <div class="container">
+            <h2 class="section-title">Nos Modèles Disponibles</h2>
+            
+            <!-- Modèle 1 Gallery -->
+            <div class="model-gallery" data-model="Modèle 1" data-price="3500">
+                <div class="model-header">
+                    <h3 class="model-title">🌟 Modèle 1 - Collection Élégante</h3>
+                    <div class="model-price-action">
+                        <span class="model-price">3,500 DA</span>
+                        <button class="add-to-cart" data-model="Modèle 1" data-price="3500">
+                            <i class="fas fa-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="img/modele1/photo_2025-10-27_13-40-03.jpg" alt="Modèle 1 - Style 1" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele1/photo_2025-10-27_13-40-13.jpg" alt="Modèle 1 - Style 2" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele1/photo_2025-10-27_13-40-19.jpg" alt="Modèle 1 - Style 3" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele1/photo_2025-10-27_13-40-24.jpg" alt="Modèle 1 - Style 4" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele1/photo_2025-10-27_13-40-28.jpg" alt="Modèle 1 - Style 5" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele1/photo_2025-10-27_13-40-34.jpg" alt="Modèle 1 - Style 6" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele1/photo_2025-10-27_13-40-38.jpg" alt="Modèle 1 - Style 7" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele1/photo_2025-10-27_13-40-45.jpg" alt="Modèle 1 - Style 8" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modèle 2 Gallery -->
+            <div class="model-gallery" data-model="Modèle 2" data-price="4000">
+                <div class="model-header">
+                    <h3 class="model-title">✨ Modèle 2 - Collection Premium</h3>
+                    <div class="model-price-action">
+                        <span class="model-price">4,000 DA</span>
+                        <button class="add-to-cart" data-model="Modèle 2" data-price="4000">
+                            <i class="fas fa-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="img/modele2/photo_2025-10-27_13-40-52.jpg" alt="Modèle 2 - Style 1" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele2/photo_2025-10-27_13-40-56.jpg" alt="Modèle 2 - Style 2" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele2/photo_2025-10-27_13-41-01.jpg" alt="Modèle 2 - Style 3" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele2/photo_2025-10-27_13-41-05.jpg" alt="Modèle 2 - Style 4" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele2/photo_2025-10-27_13-41-10.jpg" alt="Modèle 2 - Style 5" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele2/photo_2025-10-27_13-41-16.jpg" alt="Modèle 2 - Style 6" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele2/photo_2025-10-27_13-41-20.jpg" alt="Modèle 2 - Style 7" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele2/photo_2025-10-27_13-41-24.jpg" alt="Modèle 2 - Style 8" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modèle 3 Gallery -->
+            <div class="model-gallery" data-model="Modèle 3" data-price="4500">
+                <div class="model-header">
+                    <h3 class="model-title">💎 Modèle 3 - Collection Luxe</h3>
+                    <div class="model-price-action">
+                        <span class="model-price">4,500 DA</span>
+                        <button class="add-to-cart" data-model="Modèle 3" data-price="4500">
+                            <i class="fas fa-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="img/modele 3/photo_2025-10-27_13-41-29.jpg" alt="Modèle 3 - Style 1" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 3/photo_2025-10-27_13-41-34.jpg" alt="Modèle 3 - Style 2" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 3/photo_2025-10-27_13-41-38.jpg" alt="Modèle 3 - Style 3" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 3/photo_2025-10-27_13-41-42.jpg" alt="Modèle 3 - Style 4" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modèle 4 Gallery -->
+            <div class="model-gallery" data-model="Modèle 4" data-price="3800">
+                <div class="model-header">
+                    <h3 class="model-title">🎨 Modèle 4 - Collection Moderne</h3>
+                    <div class="model-price-action">
+                        <span class="model-price">3,800 DA</span>
+                        <button class="add-to-cart" data-model="Modèle 4" data-price="3800">
+                            <i class="fas fa-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="img/modele4/photo_2025-10-27_13-41-47.jpg" alt="Modèle 4 - Style 1" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele4/photo_2025-10-27_13-41-54.jpg" alt="Modèle 4 - Style 2" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele4/photo_2025-10-27_13-41-59.jpg" alt="Modèle 4 - Style 3" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele4/photo_2025-10-27_13-42-04.jpg" alt="Modèle 4 - Style 4" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele4/photo_2025-10-27_13-42-08.jpg" alt="Modèle 4 - Style 5" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele4/photo_2025-10-27_13-42-13.jpg" alt="Modèle 4 - Style 6" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele4/photo_2025-10-27_13-42-18.jpg" alt="Modèle 4 - Style 7" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele4/photo_2025-10-27_13-42-21.jpg" alt="Modèle 4 - Style 8" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modèle 5 Gallery -->
+            <div class="model-gallery" data-model="Modèle 5" data-price="4200">
+                <div class="model-header">
+                    <h3 class="model-title">🌸 Modèle 5 - Collection Tendance</h3>
+                    <div class="model-price-action">
+                        <span class="model-price">4,200 DA</span>
+                        <button class="add-to-cart" data-model="Modèle 5" data-price="4200">
+                            <i class="fas fa-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="img/modele 5/photo_2025-10-27_13-42-27.jpg" alt="Modèle 5 - Style 1" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 5/photo_2025-10-27_13-42-31.jpg" alt="Modèle 5 - Style 2" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 5/photo_2025-10-27_13-42-35.jpg" alt="Modèle 5 - Style 3" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 5/photo_2025-10-27_13-42-38.jpg" alt="Modèle 5 - Style 4" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 5/photo_2025-10-27_13-42-43.jpg" alt="Modèle 5 - Style 5" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modèle 6 Gallery -->
+            <div class="model-gallery" data-model="Modèle 6" data-price="3600">
+                <div class="model-header">
+                    <h3 class="model-title">🏠 Modèle 6 - Collection Confort</h3>
+                    <div class="model-price-action">
+                        <span class="model-price">3,600 DA</span>
+                        <button class="add-to-cart" data-model="Modèle 6" data-price="3600">
+                            <i class="fas fa-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="img/modele 6/photo_2025-10-27_13-42-48.jpg" alt="Modèle 6 - Style 1" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 6/photo_2025-10-27_13-42-52.jpg" alt="Modèle 6 - Style 2" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 6/photo_2025-10-27_13-42-55.jpg" alt="Modèle 6 - Style 3" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 6/photo_2025-10-27_13-43-00.jpg" alt="Modèle 6 - Style 4" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 6/photo_2025-10-27_13-43-04.jpg" alt="Modèle 6 - Style 5" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 6/photo_2025-10-27_13-43-08.jpg" alt="Modèle 6 - Style 6" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 6/photo_2025-10-27_13-43-12.jpg" alt="Modèle 6 - Style 7" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 6/photo_2025-10-27_13-43-18.jpg" alt="Modèle 6 - Style 8" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modèle 7 Gallery -->
+            <div class="model-gallery" data-model="Modèle 7" data-price="5000">
+                <div class="model-header">
+                    <h3 class="model-title">⭐ Modèle 7 - Collection Exclusive</h3>
+                    <div class="model-price-action">
+                        <span class="model-price">5,000 DA</span>
+                        <button class="add-to-cart" data-model="Modèle 7" data-price="5000">
+                            <i class="fas fa-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="img/modele 7/photo_2025-10-27_13-43-25.jpg" alt="Modèle 7 - Style 1" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 7/photo_2025-10-27_13-43-29.jpg" alt="Modèle 7 - Style 2" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 7/photo_2025-10-27_13-43-33.jpg" alt="Modèle 7 - Style 3" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 7/photo_2025-10-27_13-43-37.jpg" alt="Modèle 7 - Style 4" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 7/photo_2025-10-27_13-43-41.jpg" alt="Modèle 7 - Style 5" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 7/photo_2025-10-27_13-43-45.jpg" alt="Modèle 7 - Style 6" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/modele 7/photo_2025-10-27_13-43-49.jpg" alt="Modèle 7 - Style 7" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Cart -->
+    <section class="shopping-cart">
+        <div class="container">
+            <h2 class="section-title">🛍️ Votre Panier</h2>
+            <div id="cartItems" class="cart-items">
+                <p class="empty-cart">Votre panier est vide. Ajoutez des produits ci-dessus.</p>
+            </div>
+            <div id="cartTotal" class="cart-total" style="display: none;">
+                <div class="total-line">
+                    <span>Total: </span>
+                    <span id="totalAmount">0 DA</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form Section -->
+    <section class="order-form-section">
+        <div class="container">
+            <div class="form-header">
+                <h2 class="form-title">📝 Informations de livraison</h2>
+                <p class="form-description">Remplissez le formulaire ci-dessous pour finaliser votre commande. Nous vous contacterons pour la confirmation.</p>
+            </div>
+            
+            <form id="orderForm" class="order-form">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="fullName">Nom complet *</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="whatsapp">Numéro WhatsApp *</label>
+                        <input type="tel" id="whatsapp" name="whatsapp" placeholder="+213 XXX XXX XXX" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="wilaya">Wilaya *</label>
+                        <select id="wilaya" name="wilaya" required>
+                            <option value="">Sélectionnez votre wilaya</option>
+                            <option value="01 - Adrar">01 - Adrar</option>
+                            <option value="02 - Chlef">02 - Chlef</option>
+                            <option value="03 - Laghouat">03 - Laghouat</option>
+                            <option value="04 - Oum El Bouaghi">04 - Oum El Bouaghi</option>
+                            <option value="05 - Batna">05 - Batna</option>
+                            <option value="06 - Béjaïa">06 - Béjaïa</option>
+                            <option value="07 - Biskra">07 - Biskra</option>
+                            <option value="08 - Béchar">08 - Béchar</option>
+                            <option value="09 - Blida">09 - Blida</option>
+                            <option value="10 - Bouira">10 - Bouira</option>
+                            <option value="11 - Tamanrasset">11 - Tamanrasset</option>
+                            <option value="12 - Tébessa">12 - Tébessa</option>
+                            <option value="13 - Tlemcen">13 - Tlemcen</option>
+                            <option value="14 - Tiaret">14 - Tiaret</option>
+                            <option value="15 - Tizi Ouzou">15 - Tizi Ouzou</option>
+                            <option value="16 - Alger">16 - Alger</option>
+                            <option value="17 - Djelfa">17 - Djelfa</option>
+                            <option value="18 - Jijel">18 - Jijel</option>
+                            <option value="19 - Sétif">19 - Sétif</option>
+                            <option value="20 - Saïda">20 - Saïda</option>
+                            <option value="21 - Skikda">21 - Skikda</option>
+                            <option value="22 - Sidi Bel Abbès">22 - Sidi Bel Abbès</option>
+                            <option value="23 - Annaba">23 - Annaba</option>
+                            <option value="24 - Guelma">24 - Guelma</option>
+                            <option value="25 - Constantine">25 - Constantine</option>
+                            <option value="26 - Médéa">26 - Médéa</option>
+                            <option value="27 - Mostaganem">27 - Mostaganem</option>
+                            <option value="28 - M'Sila">28 - M'Sila</option>
+                            <option value="29 - Mascara">29 - Mascara</option>
+                            <option value="30 - Ouargla">30 - Ouargla</option>
+                            <option value="31 - Oran">31 - Oran</option>
+                            <option value="32 - El Bayadh">32 - El Bayadh</option>
+                            <option value="33 - Illizi">33 - Illizi</option>
+                            <option value="34 - Bordj Bou Arréridj">34 - Bordj Bou Arréridj</option>
+                            <option value="35 - Boumerdès">35 - Boumerdès</option>
+                            <option value="36 - El Tarf">36 - El Tarf</option>
+                            <option value="37 - Tindouf">37 - Tindouf</option>
+                            <option value="38 - Tissemsilt">38 - Tissemsilt</option>
+                            <option value="39 - El Oued">39 - El Oued</option>
+                            <option value="40 - Khenchela">40 - Khenchela</option>
+                            <option value="41 - Souk Ahras">41 - Souk Ahras</option>
+                            <option value="42 - Tipaza">42 - Tipaza</option>
+                            <option value="43 - Mila">43 - Mila</option>
+                            <option value="44 - Aïn Defla">44 - Aïn Defla</option>
+                            <option value="45 - Naâma">45 - Naâma</option>
+                            <option value="46 - Aïn Témouchent">46 - Aïn Témouchent</option>
+                            <option value="47 - Ghardaïa">47 - Ghardaïa</option>
+                            <option value="48 - Relizane">48 - Relizane</option>
+                            <option value="49 - Timimoun">49 - Timimoun</option>
+                            <option value="50 - Bordj Badji Mokhtar">50 - Bordj Badji Mokhtar</option>
+                            <option value="51 - Ouled Djellal">51 - Ouled Djellal</option>
+                            <option value="52 - Béni Abbès">52 - Béni Abbès</option>
+                            <option value="53 - In Salah">53 - In Salah</option>
+                            <option value="54 - In Guezzam">54 - In Guezzam</option>
+                            <option value="55 - Touggourt">55 - Touggourt</option>
+                            <option value="56 - Djanet">56 - Djanet</option>
+                            <option value="57 - El M'Ghair">57 - El M'Ghair</option>
+                            <option value="58 - El Meniaa">58 - El Meniaa</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="address">Adresse complète *</label>
+                        <textarea id="address" name="address" rows="3" placeholder="Adresse détaillée avec commune et code postal" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="color">Couleur préférée</label>
+                        <select id="color" name="color">
+                            <option value="">Choisissez une couleur</option>
+                            <option value="Blanc">Blanc</option>
+                            <option value="Beige">Beige</option>
+                            <option value="Gris">Gris</option>
+                            <option value="Bleu">Bleu</option>
+                            <option value="Rose">Rose</option>
+                            <option value="Vert">Vert</option>
+                            <option value="Bordeaux">Bordeaux</option>
+                            <option value="Noir">Noir</option>
+                            <option value="Autre">Autre (préciser en commentaire)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="comments">Commentaires (optionnel)</label>
+                        <textarea id="comments" name="comments" rows="2" placeholder="Précisions sur la couleur, demandes spéciales..."></textarea>
+                    </div>
+                </div>
+                
+                <button type="submit" class="submit-button">
+                    <i class="fas fa-paper-plane"></i>
+                    Confirmer ma commande
+                </button>
+            </form>
+            
+            <div id="thankYouMessage" class="thank-you-message" style="display: none;">
+                <div class="success-icon">✅</div>
+                <h3>Merci !</h3>
+                <p>Votre commande a été enregistrée. Nous vous contacterons très bientôt sur WhatsApp.</p>
+            </div>
+            
+            <div class="alternative-order">
+                <p>Vous pouvez aussi commander directement sur WhatsApp 👉 
+                    <a href="https://wa.me/YOUR_WHATSAPP_NUMBER" target="_blank" class="whatsapp-link">
+                        <i class="fab fa-whatsapp"></i> Cliquez ici
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 ZH HOME – Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
